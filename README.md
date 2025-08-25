@@ -9,7 +9,7 @@ Let's create a unique and engaging project that evolves with each lesson, making
 
 ABOUT ME (Avatar Image) 
 
-https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8a2lkcyUyMHNjaG9vbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=80
+https://mentormeright.in/images/students_services.png
 
 GALLERY (10 Images)
 
