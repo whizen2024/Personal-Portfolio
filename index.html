@@ -1,90 +1,133 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>My Profile</title>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-   <nav>
-    <ul>
-    <li style="float:left;"><a href="#"><b>MY PROFILE</b></a></li>
-      <li><a href="#about">ABOUT ME</a></li>
-      <li><a href="#city">MY CITY</a></li>
-      <li><a href="#photos">Gallery</a></li>
-      <li><a href="#sports">MY FAVOURITE SPORTS</a></li>
-      <li><a href="#book">MY FAVOURITE BOOK</a></li>
-      <li><a href="#message">MY MESSAGE</a></li>
-    </ul>
-   </nav>
-  </div>
-  <div id="home">
-    <h1 style="color: blueviolet;">
-      Welcome to My Profile
-      </h1>
-  </div>
-<div id="about">
-  <h2 style="color:blueviolet;text-align:center">ABOUT ME</h2>
-  <img src ="Images/download (10).png" alt="profile picture" />
-  <p>My name is XYZ.I am nine years old.My mother"s name is XYZ.My father"s name is XYZ.I study in SJKT Bandar Sri Sendayan.</p>
-</div>
-<div id="city">
-  <h2 style="color:gold;text-align:center">My city</h2>
-  <p>I live in the town of Rasah Kemayan 4 in the city of Seremban.My city is in the state of Negeri Sembilan.</p>
+  <!-- ========= NAVIGATION BAR ========= -->
+  <header class="topbar">
+    <nav class="nav">
+      <a class="brand" href="#home"><strong>MY PROFILE</strong></a>
+      <ul class="menu">
+        <li><a href="#about">ABOUT ME</a></li>
+        <li><a href="#city">MY CITY</a></li>
+        <li><a href="#photos">GALLERY</a></li>
+        <li><a href="#sports">MY FAVOURITE SPORTS</a></li>
+        <li><a href="#book">MY FAVOURITE BOOK</a></li>
+        <li><a href="#message">MY MESSAGE</a></li>
+      </ul>
+    </nav>
+  </header>
 
-</div>
+  <!-- ========= MAIN CONTENT ========= -->
+  <main class="container">
+    
+    <!-- HOME SECTION -->
+    <section id="home" class="card">
+      <h1>Welcome to My Profile</h1>
+    </section>
 
-<div id="photos">
-  <h3 style="color:red;text-align:center";>Gallery</h3>
-  <div class="row">
-    <div class="column">
-  <img src ="Images/Fiji Tradisional House.jpg" alt="photo1">
-    </div>
-    <div class="column">
-  <img src="Images/malay-house-17.jpg" alt="photo2">
-    </div>
-    <div class="column">
-  <img src="Images/Israel Tradisional House.jpg" alt="photo3">
-    </div>
-    <div class="column">
-  <img src="Images/Traditional-Thai-Houses-In-Central-Thailand.jpg" alt="photo4">
-  </div>
-    <div class="column">
-  <img src="Images/Egypt Tradisional House.jpg" alt="photo5">
-    </div>
-    <div class="column">
-      <img src="Images/Japan Tradisional house.jpeg" alt="photo6">
-        </div>
-</div>
-</div>
-<div id="sports">
-  <h2 style="color:blue;text-align:center">My Favourite Sports</h2>
-  <img src="Images/index badminton.jpeg" alt="badminton" height="300px" width="300px"/>
-  <p>My favourite sports is badminton.My favourite badmiton player is Lee Chong Wei.He is rank no.1 in badminton.I also go for badminton class.</p>
-  <h3>Basic Requirements</h3>
-  <ul type="square">
-    <li>racket</li>
-    <li>net</li>
-    <li>shatter core</li>
-    <li> two players</li>
-    <li>court</li>
-  </ul>
-</div>
-  <div id="book">
-  <h2 style="color:red;text-align:center">My Favourite Book</h2>
-    <img src="Images/books.jpeg"/>
-  <p>My favourite book is The Famous Five,The auther of my favourite book is written by Enid Blyton.She lived in the UK.</p>
-    <ul>
-    <h3>List of my favourite books</h3>
-    <li>Famous five</li>
-    <li>atlas</li>
-    <li>magazine</li>
-    <li>octonauts books</li>
-    <li>bible</li>
-  </ul>
-</div>
-<div id="message">
-  <h2 style="color:black;text-align:center">My Message</h2>
-  <p>I live in Malaysia.The only country i went is Australia and Singapore.My favourite country is Israel</p>
-</div>
+    <!-- ABOUT ME SECTION -->
+    <section id="about" class="card">
+      <h2>ABOUT ME</h2>
+      <!-- Profile image -->
+      <img
+        src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400"
+        alt="Smiling school kid with backpack"
+        class="avatar"
+      />
+      Hi! My name is <strong>Anaya</strong>. I’m <strong>12 years old</strong> and I study in
+      <strong>Grade 7</strong>. I enjoy <strong>reading stories</strong>, <strong>drawing</strong>,
+      and playing <strong>badminton</strong> with my friends after school.
+    </section>
+
+    <!-- MY CITY SECTION -->
+    <section id="city" class="card">
+      <h2>MY CITY</h2>
+      <p>
+        I live in the town of <strong>Siliguri</strong> in the state of <strong>West Bengal, India</strong>.  
+        My city is known as the <strong>Gateway of North East India</strong>.  
+        It is famous for its tea gardens, the Mahananda Wildlife Sanctuary, and its view of the Himalayas. 🏔️🍵
+      </p>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section id="photos" class="card">
+      <h2>GALLERY</h2>
+      <div class="gallery">
+        <!-- First row of images -->
+        <img src="https://picsum.photos/id/1011/300/200" alt="Gallery Image 1" />
+        <img src="https://picsum.photos/id/1012/300/200" alt="Gallery Image 2" />
+        <img src="https://picsum.photos/id/1015/300/200" alt="Gallery Image 3" />
+        <img src="https://picsum.photos/id/1016/300/200" alt="Gallery Image 4" />
+        <img src="https://picsum.photos/id/1018/300/200" alt="Gallery Image 5" />
+        <!-- Second row of images -->
+        <img src="https://picsum.photos/id/1020/300/200" alt="Gallery Image 6" />
+        <img src="https://picsum.photos/id/1024/300/200" alt="Gallery Image 7" />
+        <img src="https://picsum.photos/id/1025/300/200" alt="Gallery Image 8" />
+        <img src="https://picsum.photos/id/1027/300/200" alt="Gallery Image 9" />
+        <img src="https://picsum.photos/id/1031/300/200" alt="Gallery Image 10" />
+      </div>
+    </section>
+
+    <!-- SPORTS SECTION -->
+    <section id="sports" class="card">
+      <h2>MY FAVOURITE SPORTS</h2>
+      <!-- Badminton image -->
+      <img
+        src="https://www.euroschoolindia.com/blogs/wp-content/uploads/2023/08/how-to-play-badminton.jpg"
+        alt="Badminton racket and shuttlecock"
+        class="wide-image"
+      />
+      <p>
+        My favourite sport is <strong>Badminton</strong>. To play badminton, you need:
+      </p>
+      <ul class="square-list">
+        <li>Racket</li>
+        <li>Shuttlecock</li>
+        <li>Net</li>
+        <li>Two players</li>
+        <li>Court</li>
+      </ul>
+    </section>
+
+    <!-- BOOKS SECTION -->
+    <section id="book" class="card">
+      <h2>MY FAVOURITE BOOK</h2>
+      <!-- Book image -->
+      <img
+        src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=800"
+        alt="Stack of books"
+        class="wide-image"
+      />
+      <p>
+        My favourite book series is <em>The Famous Five</em> by <strong>Enid Blyton</strong>.
+        I love reading mystery adventures with friends and solving clues together!
+      </p>
+      <h3>Other Books I Like</h3>
+      <ul>
+        <li><strong>Atlas</strong> (to explore the world)</li>
+        <li><strong>Kids’ Magazine</strong></li>
+        <li><strong>Octonauts Storybooks</strong></li>
+        <li><strong>Bible Stories</strong></li>
+      </ul>
+    </section>
+
+    <!-- MESSAGE SECTION -->
+    <section id="message" class="card">
+      <h2>MY MESSAGE</h2>
+      <p>
+        Be kind, stay curious, and practice a little every day — small steps make big changes! 🌟
+      </p>
+    </section>
+  </main>
+
+  <!-- ========= FOOTER ========= -->
+  <footer class="footer">
+    <p>Made with ❤️ by Anaya</p>
+  </footer>
 </body>
 </html>
